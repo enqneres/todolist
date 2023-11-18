@@ -1,3 +1,8 @@
 ## Em construção 🚧
 
-Projeto sendo construído de acordo com as aulas gratuitas de lançamento da trilha de Java da plataforma Rocketseat
+## 💬 Sobre o projeto
+
+- API para todolist com cadastro de usuários e tarefas.
+- Projeto desenvolvido durante o lançamento da trilha de java oferecido pela Rocketseat e ministrada pela instrutora [Daniele Leão](https://github.com/danileao)
+
+## Tecnologias utilizadas
