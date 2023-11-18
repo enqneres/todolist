@@ -1,6 +1,7 @@
 package br.com.rocketseat.todolist.user;
 
 import at.favre.lib.crypto.bcrypt.BCrypt;
+import io.swagger.v3.oas.annotations.Operation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +16,8 @@ public class UserController {
     @Autowired
     private IUserRepository userRepository;
     @PostMapping("/")
+    @Operation(summary = "Cria um usuario", method = "POST", tags = "Usuario")
+
     public ResponseEntity create(@RequestBody UserModel userModel){
         var user = this.userRepository.findByUsername(userModel.getUsername());
 
